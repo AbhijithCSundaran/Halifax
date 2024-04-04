@@ -33,10 +33,10 @@ function animate() {
   tl.addLabel('frame_3', 10)
     .to(copy1, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
     .to(copy2, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
-    .to(shape, 1, { y: 0, ease: "power2.inOut" }, "frame_3")
-    .to(copy3, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=1")
-    .to(bgExit, 0.5, { autoAlpha: 1, display: 'block', ease: "power2.inOut" }, "frame_3+=1")
-    .to(cta, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=1");
+    .to(shape, 0.5, { y: 0, ease: "power2.inOut" }, "frame_3")
+    .to(copy3, 0.5, { autoAlpha: 0.5, ease: "power2.inOut" }, "frame_3+=.5")
+    .to(bgExit, 0.5, { autoAlpha: 1, display: 'block', ease: "power2.inOut" }, "frame_3+=.5")
+    .to(cta, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5");
 
 }
 
