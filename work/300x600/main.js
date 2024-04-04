@@ -24,11 +24,11 @@ function animate() {
   tl.addLabel('frame_1', 0)
     .to(copy1, 0.5, { autoAlpha: 1, ease: "power2.inOut", }, "frame_1+=.5");
 
-  tl.addLabel('frame_2', 4)
-    .to(shape, 0.5, { y: 350, ease: "power2.inOut" }, "frame_2")
-    .to(copy2, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.5")
-    .to(logo, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.5")
-    .to(terms, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.5");
+  tl.addLabel('frame_2', 2.5)
+    .to(shape, 1, { y: 350, ease: "power2.out" }, "frame_2")
+    .to(copy2, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=1")
+    .to(logo, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=1")
+    .to(terms, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=1");
 
   tl.addLabel('frame_3', 10)
     .to(copy1, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
