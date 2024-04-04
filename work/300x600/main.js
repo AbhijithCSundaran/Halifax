@@ -35,6 +35,7 @@ function animate() {
     .to(copy2, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
     .to(shape, 0.5, { y: 0, ease: "power2.inOut" }, "frame_3")
     .to(copy3, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5")
+    .to(bgExit, 0.5, { autoAlpha: 1, display: 'block', ease: "power2.inOut" }, "frame_3+=.5")
     .to(cta, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5");
 
 }

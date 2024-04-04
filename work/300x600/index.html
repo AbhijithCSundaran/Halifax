@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="main.js"></script>
   <script type="text/javascript">
-    var clickTag = "https://www.lloydsbank.com/";
+    var clickTag = "javascript:void(0)";
   </script>
 </head>
 
@@ -43,13 +43,13 @@
         <span> T&Cs and exclusions apply.</span>
       </div>
     </div>
-    <div id="bgExit"></div>
+    <div id="bgExit" class="d-none"></div>
   </div>
 
   <script>
     var clickArea = document.getElementById("bgExit");
     clickArea.onclick = function () {
-      window.open(clickTag, "_blank");
+      // window.open(clickTag, "_blank");
     };
   </script>
 </body>
