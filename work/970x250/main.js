@@ -24,19 +24,19 @@ function animate() {
   tl.addLabel('frame_1', 0)
     .to(copy1, 0.5, { autoAlpha: 1, ease: "power2.inOut", }, "frame_1+=.5");
 
-  tl.addLabel('frame_2', 4)
-    .to(shape, 0.5, { x: 484, y: 32, ease: "power2.inOut" }, "frame_2")
-    .to(copy2, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.5")
-    .to(logo, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.5")
-    .to(terms, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.5");
+  tl.addLabel('frame_2', 0.5)
+    .to(shape, 0.75, { y: 350, ease: "power2.out" }, "frame_2")
+    .to(copy2, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75")
+    .to(logo, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75")
+    .to(terms, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75");
 
-  tl.addLabel('frame_3', 10)
+  tl.addLabel('frame_3', 4.75)
     .to(copy1, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
     .to(copy2, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
-    .to(shape, 0.5, { x: 0, y: 0, ease: "power2.inOut" }, "frame_3")
-    .to(copy3, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5")
-    .to(bgExit, 0.5, { autoAlpha: 1, display: 'block', ease: "power2.inOut" }, "frame_3+=.5")
-    .to(cta, 0.5, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5");
+    .to(shape, 0.5, { y: 0, ease: "linear" }, "frame_3")
+    .to(copy3, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5")
+    .to(bgExit, 0.25, { autoAlpha: 1, display: 'block', ease: "power2.inOut" }, "frame_3+=.5")
+    .to(cta, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5");
 
 }
 
