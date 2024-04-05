@@ -22,7 +22,7 @@ function animate() {
   tl.set(["#main"], { autoAlpha: 1, force3D: true });
 
   tl.addLabel('frame_1', 0)
-    .to(shape, 0.5, { x: 100, ease: "power2.out" }, "frame_2")
+    .to(shape, 0, { x: 100, ease: "power2.out" }, "frame_2")
     // .to(copy1, 0.5, { autoAlpha: 1, ease: "power2.inOut", }, "frame_1+=.5");
 
   tl.addLabel('frame_2', 0.75)
