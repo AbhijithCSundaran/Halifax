@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'SourceSansPro-Black';
-  src: url(fonts/SourceSansPro-Black.otf);
+  src: url(fonts/SourceSansPro-Black.woff2);
 }
 
 @font-face {
   font-family: 'SourceSansPro-Bold';
-  src: url(fonts/sourcesanspro-bold-webfont.ttf);
+  src: url(fonts/sourcesanspro-bold.woff2);
 }
 
 @font-face {
   font-family: 'SourceSansPro-Regular';
-  src: url(fonts/sourcesanspro-regular-webfont.ttf);
+  src: url(fonts/sourcesanspro-regular.woff2);
 }
 
 @font-face {
   font-family: 'SourceSansPro-Semibold';
-  src: url(fonts/sourcesanspro-semibold-webfont.ttf);
+  src: url(fonts/sourcesanspro-semibold.woff2);
 }
 
 sup,
