@@ -25,7 +25,7 @@ function animate() {
     .to(copy1, 0.5, { autoAlpha: 1, ease: "power2.inOut", }, "frame_1+=.5");
 
   tl.addLabel('frame_2', 0.5)
-    .to(shape, 0.75, { y: 350, ease: "power2.out" }, "frame_2")
+    .to(shape, 0.75, { y: 270, ease: "power2.out" }, "frame_2")
     .to(copy2, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75")
     .to(logo, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75")
     .to(terms, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75");
