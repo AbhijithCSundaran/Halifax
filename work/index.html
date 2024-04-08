@@ -55,7 +55,8 @@
         }
 
         .tab-btn {
-            width: 100%;
+            width: auto;
+            min-width: 125px;
             border: none;
             color: #ffffff;
             /* border-radius: 10px 10px 0px 0px; */
@@ -133,16 +134,18 @@
         Halifax LOCAL Display Banners
     </h2>
     <div class="maincontainer">
-        <!-- <div class="tab-buttons">
-            <button class="tab-btn active" content-id="Halifax"> Halifax </button>
-        </div> -->
+        <div class="tab-buttons">
+            <button class="tab-btn active" content-id="Cashback"> Cashback </button>
+            <button class="tab-btn" content-id="Event"> Event </button>
+            <button class="tab-btn" content-id="Mortgage"> Mortgage </button>
+        </div>
         <div class="tab-contents">
-            <div class="content show" id="Halifax">
+            <div class="content show" id="Cashback">
                 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
                     <div style="display: flex;flex-direction: column;">
                         <h6>300X600</h6>
-                        <iframe src="300x600/index.html" width="300px"
+                        <iframe src="Cashback/300x600/index.html" width="300px"
                             height="600px" frameborder="0"></iframe>
                         <div class="btn_wrpr">
                             <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
@@ -152,7 +155,7 @@
 
                     <div style="display: flex;flex-direction: column;">
                         <h6>160X600</h6>
-                        <iframe src="160x600/index.html" width="160px"
+                        <iframe src="Cashback/160x600/index.html" width="160px"
                             height="600px" frameborder="0"></iframe>
                         <div class="btn_wrpr">
                             <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
@@ -162,7 +165,7 @@
                     
                     <div style="display: flex;flex-direction: column;">
                         <h6>300X250</h6>
-                        <iframe src="300x250/index.html" width="300px"
+                        <iframe src="Cashback/300x250/index.html" width="300px"
                             height="250px" frameborder="0"></iframe>
                         <div class="btn_wrpr">
                             <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
@@ -171,7 +174,7 @@
                     </div>
                     <div style="display: flex;flex-direction: column;">
                         <h6>320X50</h6>
-                        <iframe src="320x50/index.html" width="320px"
+                        <iframe src="Cashback/320x50/index.html" width="320px"
                             height="50px" frameborder="0"></iframe>
                         <div class="btn_wrpr">
                             <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
@@ -180,7 +183,7 @@
                     </div>
                     <div style="display: flex;flex-direction: column;">
                         <h6>728X90</h6>
-                        <iframe src="728x90/index.html" width="728px"
+                        <iframe src="Cashback/728x90/index.html" width="728px"
                             height="90px" frameborder="0"></iframe>
                         <div class="btn_wrpr">
                             <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
@@ -189,7 +192,131 @@
                     </div>
                     <div style="display: flex;flex-direction: column;">
                         <h6>970X250</h6>
-                        <iframe src="970x250/index.html" width="970px"
+                        <iframe src="Cashback/970x250/index.html" width="970px"
+                            height="250px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="content show" id="Event">
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>300X600</h6>
+                        <iframe src="Event/300x600/index.html" width="300px"
+                            height="600px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>160X600</h6>
+                        <iframe src="Event/160x600/index.html" width="160px"
+                            height="600px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>300X250</h6>
+                        <iframe src="Event/300x250/index.html" width="300px"
+                            height="250px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>320X50</h6>
+                        <iframe src="Event/320x50/index.html" width="320px"
+                            height="50px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>728X90</h6>
+                        <iframe src="Event/728x90/index.html" width="728px"
+                            height="90px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>970X250</h6>
+                        <iframe src="Event/970x250/index.html" width="970px"
+                            height="250px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content show" id="Mortgage">
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>300X600</h6>
+                        <iframe src="Mortgage/300x600/index.html" width="300px"
+                            height="600px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>160X600</h6>
+                        <iframe src="Mortgage/160x600/index.html" width="160px"
+                            height="600px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>300X250</h6>
+                        <iframe src="Mortgage/300x250/index.html" width="300px"
+                            height="250px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>320X50</h6>
+                        <iframe src="Mortgage/320x50/index.html" width="320px"
+                            height="50px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>728X90</h6>
+                        <iframe src="Mortgage/728x90/index.html" width="728px"
+                            height="90px" frameborder="0"></iframe>
+                        <div class="btn_wrpr">
+                            <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
+                            <button class="view_btn" onclick="onView(event)">Open</button>
+                        </div>
+                    </div>
+                    <div style="display: flex;flex-direction: column;">
+                        <h6>970X250</h6>
+                        <iframe src="Mortgage/970x250/index.html" width="970px"
                             height="250px" frameborder="0"></iframe>
                         <div class="btn_wrpr">
                             <button class="re_btn" onclick="reloadFrame(event)"> <img src="refresh.svg"></button>
