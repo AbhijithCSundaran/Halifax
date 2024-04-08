@@ -136,7 +136,7 @@ body,
 
 .text2 {
   font-family: 'SourceSansPro-Regular';
-  font-size: 11px;
+  font-size: 10.2px;
   line-height: 12px;
   padding: 0 3px;
 }
@@ -152,8 +152,8 @@ body,
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 14px;
-  right: 70px;
+  bottom: 13px;
+  right: 68px;
   width: 71px;
   height: 23px;
   border: #F8D872 solid 1px;
