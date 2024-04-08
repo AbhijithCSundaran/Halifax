@@ -60,7 +60,7 @@ body,
   width: 100%;
   height: calc(100% + 150px);
   transform: translateY(100%);
-  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 140px);
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 150px);
   clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 150px);
   background-color: #4698E8;
   background: linear-gradient(140deg, #4698E8 0%, #005EB8 45%);
@@ -112,7 +112,7 @@ body,
 
 #copy2 {
   text-align: right;
-  top: 274px;
+  top: 264px;
   right: 0px;
 }
 

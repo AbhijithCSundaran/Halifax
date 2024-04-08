@@ -131,7 +131,7 @@ body,
   font-size: 24px;
   line-height: 14px;
   letter-spacing: -1px;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
 }
 
 .text2 {
@@ -152,10 +152,10 @@ body,
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 14px;
-  right: 70px;
+  bottom: 13px;
+  right: 81px;
   width: 71px;
-  height: 23px;
+  height: 22px;
   border: #F8D872 solid 1px;
   background-color: #F8D872;
   color: #071D49;
