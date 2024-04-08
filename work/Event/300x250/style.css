@@ -60,8 +60,8 @@ body,
   width: 100%;
   height: calc(100% + 200px);
   transform: translateY(100%);
-  -webkit-clip-path: polygon(207px 0, 100% 0, 100% 100%, 0 100%, 0 198px);
-  clip-path: polygon(207px 0, 100% 0, 100% 100%, 0 100%, 0 198px);
+  -webkit-clip-path: polygon(213px 0, 100% 0, 100% 100%, 0 100%, 0 203px);
+  clip-path: polygon(213px 0, 100% 0, 100% 100%, 0 100%, 0 203px);
   background-color: #4698E8;
   background: linear-gradient(140deg, #4698E8 0%, #005EB8 45%);
 }

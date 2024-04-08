@@ -30,12 +30,12 @@ function animate() {
     .to(logo, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75")
     .to(terms, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_2+=.75");
 
-  tl.addLabel('frame_3', 4.75)
-    .to(copy1, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
-    .to(copy2, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
-    .to(shape, 0.5, { y: 0, ease: "linear" }, "frame_3")
-    .to(copy3, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5")
-    .to(cta, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5");
+  // tl.addLabel('frame_3', 4.75)
+  //   .to(copy1, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
+  //   .to(copy2, 0.2, { autoAlpha: 0, ease: "power2.inOut", }, "frame_3")
+  //   .to(shape, 0.5, { y: 0, ease: "linear" }, "frame_3")
+  //   .to(copy3, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5")
+  //   .to(cta, 0.25, { autoAlpha: 1, ease: "power2.inOut" }, "frame_3+=.5");
 
 }
 
