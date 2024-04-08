@@ -58,7 +58,7 @@ body,
   bottom: 0;
   left: 0;
   width: 100%;
-  height: calc(100% + 200px);
+  height: calc(100% + 203px);
   transform: translateY(100%);
   -webkit-clip-path: polygon(213px 0, 100% 0, 100% 100%, 0 100%, 0 203px);
   clip-path: polygon(213px 0, 100% 0, 100% 100%, 0 100%, 0 203px);
