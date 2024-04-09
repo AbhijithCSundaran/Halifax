@@ -45,9 +45,7 @@ function endTime() {
   // show total banner animation time in browser console.
   var endTime = new Date();
 
-  console.log(
-    "Animation duration: " + (endTime - startTime) / 1000 + " seconds"
-  );
+  // console.log( "Animation duration: " + (endTime - startTime) / 1000 + " seconds");
 }
 
 // CTA grow on hover
