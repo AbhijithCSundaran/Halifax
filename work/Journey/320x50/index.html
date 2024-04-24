@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="ad.size" content="width=320,height=50">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <script type="text/javascript">
+    var clickTag = "";
+  </script>
+</head>
+
+<body onload="window.init()">
+
+  <div id="main">
+    <img src="images/logo.svg" id="logo" class="hidden" alt="">
+    <div id="shape"></div>
+    <div class="content">
+      <div class="copy hidden" id="copy1">
+        <span class="text1">GOOD MOVE</span>
+        <span class="text2">
+          Starting your online mortgage<br>application when it suits you.
+        </span>
+      </div>
+      <div id="cta" class="hidden">
+        <span>Start now</span>
+      </div>
+      <!-- <div id="terms" class="hidden">
+        <span> T&Cs and exclusions apply.</span>
+      </div> -->
+    </div>
+    <div id="bgExit"></div>
+  </div>
+
+  <script>
+    var clickArea = document.getElementById("bgExit");
+    clickArea.onclick = function () {
+      window.open(clickTag, "_blank");
+    };
+  </script>
+</body>
+
+</html>

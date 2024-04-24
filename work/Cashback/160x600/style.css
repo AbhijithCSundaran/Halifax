@@ -176,5 +176,6 @@ body,
   width: 100%;
   font-family: 'SourceSansPro-Semibold';
   font-size: 9px;
+  line-height: 10px;
   color: white;
 }
