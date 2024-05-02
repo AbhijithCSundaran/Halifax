@@ -164,7 +164,7 @@ body,
   justify-content: center;
   position: absolute;
   bottom: 42px;
-  right: 48px;
+  right: 31px;
   width: 166px;
   height: 42px;
   border: #F8D872 solid 1px;
@@ -177,12 +177,9 @@ body,
 }
 
 #terms {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
-  bottom: 6px;
-  width: 100%;
+    right: 35px;
+    bottom: 6px;
   font-family: 'SourceSansPro-Semibold';
   font-size: 10px;
   color: white;
